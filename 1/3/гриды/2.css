@@ -1,0 +1,199 @@
+*{list-style-type: none;
+    margin: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+h2{
+    font-size: 45px;   
+}
+@media  (max-widtx:1000px) {
+   .h2{
+        font-size: 35px;  } 
+   .h3{
+        font-size: 32px;  } 
+    .h4{
+        font-size: 30px;  } 
+    p{
+        font-size: 13px;
+    }
+    a , input , area {
+        font-size: 13px;
+    }
+    button{
+    margin-bottom: 30px;}
+}
+h3{
+    font-size: 42px;
+}
+
+h4{
+    font-size: 40px;
+}
+h2 , h3 , h4{
+    font-weight: 200;
+    margin-top: 0;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+span{
+    font-weight: 900;
+}
+p{
+  font-size: 15px;
+    list-style: 28px;
+    margin-bottom: 0;
+}
+a , input , area {
+    font-size: 16.57px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 15px 0px;
+    display: block;
+    max-width: 210px;
+    text-align: center;
+    margin-top: 50px;
+}
+.grid-item-beige a {
+    color: #000;
+    border: 1px solid #000;
+}
+button{
+    display: block;
+    width: 33px;
+    height: 33px;
+    margin-bottom: 64px;
+    margin-top: 50px;
+}
+.span{
+    display: block;
+}
+.form{
+    max-width: 620px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.form input, .form textarea{
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    padding: 18px 15px;
+}
+.form input{
+    width: calc(48% - 30px);
+}
+.form textarea {
+    width: 100%;
+    min-height: 124px;
+}
+
+.grid{
+    display: grid;
+    grid-template-areas:"a a a a a a b b b"
+                        "c c c c d d d d d"
+                        "c c c c e e e e e"
+                        "f f f g g g g g g";
+}
+.grid-item-bg{
+    background-image: url(/Rectangle\ 1.png);
+    grid-area: a;
+    min-height: 500px;
+}
+.grid-item-grey{
+background-color: #f3f3f3;
+grid-area: b;
+padding: 0px 30px 10px 30px;
+}
+.grid-item-blue{
+    background-image: url(/Rectangle\ 1\ copy\ 2.png);
+    grid-area: c;
+}
+.grid-item-beige{
+    background-image: url(/Rectangle\ 13.png);
+    grid-area: d;
+}
+.grid-item-black{
+    background-image: url(/Rectangle\ 15\ copy.png);
+    grid-area: e;
+}
+.grid-item-human{
+    background-image: url(/Rectangle\ 26\ copy.png);
+    grid-area: f;
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    min-height: 600px;
+}
+.grid-item-green{
+    background-image: url(/Rectangle56645564.png);
+    grid-area: g;
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    min-height: 600px;
+}
+
+.grid-item-bg, .grid-item-blue, .grid-item-beige,.grid-item-black, .grid-item-human,.grid-item-green{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+   
+}
+.grid-item-gray, .grid-item-blue, .grid-item-beige,.grid-item-black, .grid-item-human,.grid-item-green{
+    padding: 60px 55px 70px 55px;
+    
+}
+.grid-item-blue,.grid-item-black, .grid-item-human,.grid-item-green{
+    color: #fff;
+   
+}
+.grid-item-blue>div {
+    margin-bottom: 70px;
+}
+
+.list{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    justify-content: flex-start;
+}
+.list>li {
+    margin-right: 10px;
+}
+.list>li>a{
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 45px;
+    display: block;
+    border:none;
+  
+}
+.list>li>a.list-fb{
+    background-image: url(/fz.png);
+}
+.list>li>a.list-dr{
+    background-image: url(/da.png);
+}
+.list>li>a.list-tw{
+    background-image: url(/tw.png);
+}
+.logo{
+    display: block;
+    width: 90px;
+    height: 90px;
+    background-image: url(/logo.png);
+    margin-bottom: 25px;
+}
+
+.form input::-webkit-input-placeholder, .form textarea::-webkit-input-placeholder{color:#fff};
+.form input::-moz-placeholder, .form textarea::-moz-placeholder{color:#fffb};
+.form input::-moz-placeholder, .form textarea::-moz-placeholder{color:#fff};
+.form input::-ms-input-placeholder, .form textarea::-ms-input-placeholder{color:#fff};
